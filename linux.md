@@ -23,3 +23,6 @@
 Copy lines 45000 - 50000 from rockyou into a new file
 `sed -n '45000,50000p' /usr/share/wordlists/rockyou.txt >/usr/share/wordlists/shortrockyou.txt`
 
+## Apache web server on Parrot
+service postgresql start
+service apache2 start
