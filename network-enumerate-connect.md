@@ -31,3 +31,7 @@ Post
 
 ## Get FTP banner
 `nc x.x.x.x 21`
+
+## SSH tunnels
+`ssh -L 1000:localhost:2000 user@ip` - cmd runs on localhost:1000
+`ssh -R 8000:localhost:9000 user@ip` - cmd runs on localhost:8000
